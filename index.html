@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kết quả thương lượng</title>
+<style>
+  :root { --navy:#13335d; --blue:#2167ae; --gold:#e9b949; --paper:#fffdf7; }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; min-height:100vh; display:grid; place-items:center; padding:24px;
+    color:#172334; font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#dbeeff 0%,#f7fbff 48%,#fff3d3 100%);
+  }
+  .page { width:min(760px,100%); background:var(--paper); border:1px solid #d8dee8; border-radius:18px; overflow:hidden; box-shadow:0 20px 55px rgba(20,50,90,.18); }
+  header { background:var(--navy); color:white; padding:26px 34px; display:flex; align-items:center; gap:18px; }
+  .crest { width:55px; height:62px; flex:0 0 auto; border:3px solid var(--gold); border-radius:8px 8px 18px 18px; display:grid; place-items:center; font-size:28px; background:#174374; }
+  .school { font-size:12px; letter-spacing:1.4px; text-transform:uppercase; opacity:.83; }
+  h1 { margin:5px 0 0; font-family:Georgia,serif; font-size:27px; }
+  main { padding:34px; }
+  .meta { display:flex; justify-content:space-between; gap:18px; flex-wrap:wrap; color:#677485; font-size:14px; border-bottom:1px solid #e4e8ed; padding-bottom:18px; }
+  h2 { color:var(--navy); font-family:Georgia,serif; font-size:25px; margin:28px 0 12px; }
+  p { font-size:17px; line-height:1.6; }
+  .highlight { background:#edf6ff; border-left:5px solid var(--blue); padding:16px 18px; border-radius:0 10px 10px 0; }
+  ul { list-style:none; padding:0; margin:20px 0; }
+  li { padding:12px 0 12px 36px; position:relative; border-bottom:1px dashed #d9e0e8; font-size:16px; line-height:1.4; }
+  li:before { content:'✓'; position:absolute; left:4px; top:9px; color:#25824b; font-weight:bold; font-size:22px; }
+  .decision { margin:26px 0; padding:22px; border:1px solid #f0d797; background:#fff9e9; border-radius:12px; text-align:center; }
+  .decision strong { display:block; color:#8b6112; margin-bottom:7px; text-transform:uppercase; letter-spacing:.7px; font-size:13px; }
+  .stamp { display:inline-block; margin:5px 0 20px; padding:8px 15px; border:3px solid #c64242; color:#c64242; border-radius:5px; font-weight:800; letter-spacing:1px; transform:rotate(-3deg); }
+  footer { padding:19px 34px; background:#f2f5f8; color:#687585; font-size:13px; text-align:center; }
+  @media(max-width:560px) { header,main { padding:24px; } h1 { font-size:22px; } h2 { font-size:22px; } }
+</style>
+</head>
+<body>
+  <section class="page">
+    <header>
+      <div class="crest">🎓</div>
+      <div>
+        <div class="school">Cổng thông tin học tập</div>
+        <h1>Ban chăm sóc việc học</h1>
+      </div>
+    </header>
+    <main>
+      <div class="meta"><span>Hồ sơ số 2026-21-09</span><span>Trạng thái: hiệu trưởng đã xem qua</span></div>
+      <h2>Kết quả cuộc thương lượng khẩn</h2>
+      <p>Vì anh người hâm mộ số một của em đã gửi yêu cầu, một cuộc họp rất nghiêm túc về việc học thêm của em đã được tổ chức.</p>
+      <div class="highlight">Hội đồng kết luận: em quá thông minh, tài giỏi và đầy triển vọng để bỏ học thêm. Vậy nên em vẫn phải đi học, nhưng nhất định phải giữ tâm trạng thật tốt nữa.</div>
+      <h2>Những điều khoản đã chốt</h2>
+      <ul>
+        <li>Sau mỗi buổi học thêm, em phải nghỉ ngơi thật đầy đủ.</li>
+        <li>Để bù lại, em nên ăn món ngon hoặc một món tráng miệng.</li>
+        <li>Anh có nhiệm vụ nhắc em mỗi ngày: «Em giỏi lắm, anh tự hào về em».</li>
+      </ul>
+      <div class="decision">
+        <strong>Quyết định của hiệu trưởng</strong>
+        <div>«Học thì vẫn phải học. Nhưng em vui cũng là điều bắt buộc.»</div>
+      </div>
+      <div class="stamp">ĐÃ DUYỆT ❤️</div>
+    </main>
+    <footer>Soạn với mức độ nghiêm túc tối đa và lượng thủ tục thật tối thiểu.</footer>
+  </section>
+</body>
+</html>
